@@ -1,14 +1,12 @@
-import { useState } from 'react'
+import React from 'react'
 import Pokemon from './components/Pokemon'
 
-function App() {
-  // const [count, setCount] = useState(0)
 
+const App = () => {
   return (
-  <div>
-    hello pokemon
-    <Pokemon />
-  </div>
+    <div>
+      <Pokemon />
+    </div>
   )
 }
 
