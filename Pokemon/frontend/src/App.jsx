@@ -7,8 +7,8 @@ import Number from './pages/Number'
 const App = () => {
   return (
     <div>
-      {/* <Pokemon /> */}
-      {/* <Yatin/> */}
+      <Pokemon />
+      <Yatin/>
       <Number />
 
     </div>
